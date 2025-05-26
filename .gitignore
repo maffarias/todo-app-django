@@ -32,3 +32,5 @@ media/
 # Arquivos temporários
 .DS_Store
 Thumbs.db
+myenv/
+static/
