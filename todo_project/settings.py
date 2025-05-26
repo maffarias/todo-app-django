@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-dyz^q(74!77e1^79c$5@56i^9yf8^94@_3v68gg29k5()lxw0l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1'], ['maffarias.pythonanywhere.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['maffarias.pythonanywhere.com', 'localhost', '127.0.0.1']
+
 
 
 # Application definition
@@ -126,5 +127,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 import os
 
 STATIC_ROOT = "/home/maffarias/todo-app-django/static"
-# or, eg,
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+
